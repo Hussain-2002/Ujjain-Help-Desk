@@ -225,9 +225,9 @@ export default function QueryForm() {
                       </FormControl>
                       <SelectContent>
                         <SelectItem value="Accommodation">Accommodation</SelectItem>
-                        <SelectItem value="Relay Zone">Zone</SelectItem>
+                        <SelectItem value="Relay Zone">Relay Zone</SelectItem>
                         <SelectItem value="Transport">Transport</SelectItem>
-                        <SelectItem value="Mawaid">Relay Center</SelectItem>
+                        <SelectItem value="Mawaid">Mawaid</SelectItem>
                         <SelectItem value="Others">Others</SelectItem>
                       </SelectContent>
                     </Select>
