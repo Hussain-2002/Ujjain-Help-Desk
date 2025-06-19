@@ -19,7 +19,7 @@ export default function HeroSection() {
           UJJAIN RELAY CENTRE HELPLINE
         </h1>
         <p className="text-xl md:text-2xl mb-2 text-amber-700">
-          Ashara Mubaraka 1447 Madras (Ujjain)
+          Ashara Mubaraka 1447 Madras
         </p>
         <p className="text-lg text-gray-600 max-w-4xl mx-auto">
           (Aa Helpline Fakat wo mumineen waste che je already Registered Che ane Ujjain ne Relay Centre Select kido che)

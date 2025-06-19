@@ -1,15 +1,15 @@
 import { openWhatsApp, openEmail } from "@/lib/utils";
 
 const contactNumbers = [
-  "+91-9425948194",
-  "+91-8839835752", 
-  "+91-8109571672",
-  "+91-8871346352"
+  "+91-7024951915",
+  "+91-8959584011", 
+  "+91-8959584011",
+  "+91-8959584011"
 ];
 
 export default function ContactSection() {
   const handleWhatsAppClick = () => {
-    openWhatsApp("919425948194", "Hi, I need help regarding Ujjain Relay Centre services");
+    openWhatsApp("917024951915", "Hi, I need help regarding Ujjain Relay Centre services");
   };
 
   const handleEmailClick = () => {
@@ -39,7 +39,7 @@ export default function ContactSection() {
             className="contact-button text-white px-6 py-3 rounded-lg font-medium inline-flex items-center"
           >
             <span className="material-icons mr-2">phone</span>
-            +91-9425948194
+            +91-7024951915
           </button>
         </div>
 
