@@ -49,7 +49,7 @@ export default function QueryForm() {
   const submitMutation = useMutation({
     mutationFn: async (data: FormData) => {
       // Google Apps Script Web App URL
-      const GOOGLE_APPS_SCRIPT_URL = "https://script.google.com/macros/s/AKfycbzLd2mjlb0y8KmcoewNFcCSkZe8XdaEY2u-smICPl9BX55U22YQ_c1B_XjcJPK06D6r/exec";
+      const GOOGLE_APPS_SCRIPT_URL = "https://script.google.com/macros/s/AKfycbw4g0gGoWM6FTJHjQWAXGDciQ8nlD7rOQa3owzSwjGGpMsOnaBeeovu2nSofVjSSUl8Uw/exec";
       
       // Create form data
       const formData = new FormData();
