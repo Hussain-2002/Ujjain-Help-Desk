@@ -29,7 +29,7 @@ const formSchema = z.object({
   email: z.string().email("Please enter a valid email address"),
   whatsappNumber: z.string().min(10, "Please enter a valid mobile number"),
   jamaat: z.string().min(1, "Jamaat is required"),
-  category: z.enum(["Accommodation", "Zone", "Transport","Relay Center", "Others"], {
+  category: z.enum(["Accommodation", "Relay Zone", "Transport","Mawaid", "Others"], {
     required_error: "Please select a category",
   }),
   subject: z.string().min(1, "Subject is required"),
@@ -225,9 +225,9 @@ export default function QueryForm() {
                       </FormControl>
                       <SelectContent>
                         <SelectItem value="Accommodation">Accommodation</SelectItem>
-                        <SelectItem value="Zone">Zone</SelectItem>
+                        <SelectItem value="Relay Zone">Zone</SelectItem>
                         <SelectItem value="Transport">Transport</SelectItem>
-                        <SelectItem value="Relay Center">Relay Center</SelectItem>
+                        <SelectItem value="Mawaid">Relay Center</SelectItem>
                         <SelectItem value="Others">Others</SelectItem>
                       </SelectContent>
                     </Select>
